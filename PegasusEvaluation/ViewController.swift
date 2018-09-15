@@ -37,17 +37,34 @@ class ViewController: UIViewController, ConverterVCDelegate{
             //TODO: Show an alert
         }
     }
-    //MARK - ConverterVCDelegate
+    func showAlert(message:String, isError:Bool) {
+        let title = isError ? "Error" : "Info"
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+                
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+                
+                
+            }}))
+        self.present(alert, animated: true, completion: nil)
+    }
+    // MARK: ConverterVCDelegate
     func convertionFinished(farenheit: String) {
         self.lblFarenheit.text = farenheit
     }
     
     func convertionEndedWithError(message: String) {
-        //TOD: Show alert with error
+        showAlert(message: message, isError: true)
         print(message)
-        
     }
-    
 }
 
 //

@@ -43,7 +43,7 @@
                                     <constraint firstAttribute="height" constant="32" id="cD9-xT-H3K"/>
                                     <constraint firstAttribute="width" constant="120" id="iMK-U4-nWT"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Convertir">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -59,7 +59,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ux-eg-fLj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ux-eg-fLj">
                                 <rect key="frame" x="16" y="292" width="343" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="5q0-gj-Noy"/>
