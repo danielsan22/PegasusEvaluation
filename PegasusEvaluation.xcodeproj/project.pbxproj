@@ -14,6 +14,9 @@
 		23BD1AE4214B4D31001437CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD1AE2214B4D31001437CD /* LaunchScreen.storyboard */; };
 		23BD1AEF214B4D31001437CD /* PegasusEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1AEE214B4D31001437CD /* PegasusEvaluationTests.swift */; };
 		23BD1AFA214B4D31001437CD /* PegasusEvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1AF9214B4D31001437CD /* PegasusEvaluationUITests.swift */; };
+		6B480E9E9CE565BF7EE5ED27 /* libPods-PegasusEvaluationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2BFD671495907134B39C2 /* libPods-PegasusEvaluationUITests.a */; };
+		A360EE06F436665411949BAC /* libPods-PegasusEvaluation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A139282E146A682456C20452 /* libPods-PegasusEvaluation.a */; };
+		B267A66FDB15175401D33A8D /* libPods-PegasusEvaluationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF68AB907E790ABA2BB7F50 /* libPods-PegasusEvaluationTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF68AB907E790ABA2BB7F50 /* libPods-PegasusEvaluationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PegasusEvaluationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BD1AD6214B4D31001437CD /* PegasusEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegasusEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BD1AD9214B4D31001437CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23BD1ADB214B4D31001437CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 		23BD1AF5214B4D31001437CD /* PegasusEvaluationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusEvaluationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BD1AF9214B4D31001437CD /* PegasusEvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegasusEvaluationUITests.swift; sourceTree = "<group>"; };
 		23BD1AFB214B4D31001437CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DF7986214B626300EE50C7 /* PegasusEvaluation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PegasusEvaluation-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D0E6ED17DEBD3146AE9808D /* Pods-PegasusEvaluationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationUITests/Pods-PegasusEvaluationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		619E5428AD90224101B06DD7 /* Pods-PegasusEvaluationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationTests/Pods-PegasusEvaluationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A2711CFE7FE6DD36A97CED9 /* Pods-PegasusEvaluation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluation/Pods-PegasusEvaluation.release.xcconfig"; sourceTree = "<group>"; };
+		90860894B47D24682EE5DFF2 /* Pods-PegasusEvaluationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationUITests/Pods-PegasusEvaluationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96A2BFD671495907134B39C2 /* libPods-PegasusEvaluationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PegasusEvaluationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A139282E146A682456C20452 /* libPods-PegasusEvaluation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PegasusEvaluation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69D48D42A7AE9C3030D9E63 /* Pods-PegasusEvaluationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationTests/Pods-PegasusEvaluationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC215B7DE58E7C3AB49DFD8A /* Pods-PegasusEvaluation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluation/Pods-PegasusEvaluation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A360EE06F436665411949BAC /* libPods-PegasusEvaluation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B267A66FDB15175401D33A8D /* libPods-PegasusEvaluationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B480E9E9CE565BF7EE5ED27 /* libPods-PegasusEvaluationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,8 @@
 				23BD1AED214B4D31001437CD /* PegasusEvaluationTests */,
 				23BD1AF8214B4D31001437CD /* PegasusEvaluationUITests */,
 				23BD1AD7214B4D31001437CD /* Products */,
+				E615DF2396389502C25B7784 /* Pods */,
+				F2BD4F75C8C5FE5AB4D4E592 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				23BD1AE0214B4D31001437CD /* Assets.xcassets */,
 				23BD1AE2214B4D31001437CD /* LaunchScreen.storyboard */,
 				23BD1AE5214B4D31001437CD /* Info.plist */,
+				23DF7986214B626300EE50C7 /* PegasusEvaluation-Bridging-Header.h */,
 			);
 			path = PegasusEvaluation;
 			sourceTree = "<group>";
@@ -125,6 +144,29 @@
 			path = PegasusEvaluationUITests;
 			sourceTree = "<group>";
 		};
+		E615DF2396389502C25B7784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC215B7DE58E7C3AB49DFD8A /* Pods-PegasusEvaluation.debug.xcconfig */,
+				6A2711CFE7FE6DD36A97CED9 /* Pods-PegasusEvaluation.release.xcconfig */,
+				A69D48D42A7AE9C3030D9E63 /* Pods-PegasusEvaluationTests.debug.xcconfig */,
+				619E5428AD90224101B06DD7 /* Pods-PegasusEvaluationTests.release.xcconfig */,
+				90860894B47D24682EE5DFF2 /* Pods-PegasusEvaluationUITests.debug.xcconfig */,
+				5D0E6ED17DEBD3146AE9808D /* Pods-PegasusEvaluationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2BD4F75C8C5FE5AB4D4E592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A139282E146A682456C20452 /* libPods-PegasusEvaluation.a */,
+				1FF68AB907E790ABA2BB7F50 /* libPods-PegasusEvaluationTests.a */,
+				96A2BFD671495907134B39C2 /* libPods-PegasusEvaluationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23BD1AFE214B4D31001437CD /* Build configuration list for PBXNativeTarget "PegasusEvaluation" */;
 			buildPhases = (
+				AB874D8C3ECCFA2359B26BBC /* [CP] Check Pods Manifest.lock */,
 				23BD1AD2214B4D31001437CD /* Sources */,
 				23BD1AD3214B4D31001437CD /* Frameworks */,
 				23BD1AD4214B4D31001437CD /* Resources */,
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23BD1B01214B4D31001437CD /* Build configuration list for PBXNativeTarget "PegasusEvaluationTests" */;
 			buildPhases = (
+				E57F9CDC59E5F2CA7B52A921 /* [CP] Check Pods Manifest.lock */,
 				23BD1AE6214B4D31001437CD /* Sources */,
 				23BD1AE7214B4D31001437CD /* Frameworks */,
 				23BD1AE8214B4D31001437CD /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23BD1B04214B4D31001437CD /* Build configuration list for PBXNativeTarget "PegasusEvaluationUITests" */;
 			buildPhases = (
+				8FCE22D6E3AF34100F714673 /* [CP] Check Pods Manifest.lock */,
 				23BD1AF1214B4D31001437CD /* Sources */,
 				23BD1AF2214B4D31001437CD /* Frameworks */,
 				23BD1AF3214B4D31001437CD /* Resources */,
@@ -193,6 +238,7 @@
 				TargetAttributes = {
 					23BD1AD5214B4D31001437CD = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					23BD1AE9214B4D31001437CD = {
@@ -253,6 +299,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FCE22D6E3AF34100F714673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusEvaluationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB874D8C3ECCFA2359B26BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusEvaluation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57F9CDC59E5F2CA7B52A921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusEvaluationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23BD1AD2214B4D31001437CD /* Sources */ = {
@@ -424,14 +527,18 @@
 		};
 		23BD1AFF214B4D31001437CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC215B7DE58E7C3AB49DFD8A /* Pods-PegasusEvaluation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULTX435EY4;
 				INFOPLIST_FILE = PegasusEvaluation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanielSR.PegasusEvaluation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PegasusEvaluation/PegasusEvaluation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +546,17 @@
 		};
 		23BD1B00214B4D31001437CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2711CFE7FE6DD36A97CED9 /* Pods-PegasusEvaluation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULTX435EY4;
 				INFOPLIST_FILE = PegasusEvaluation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanielSR.PegasusEvaluation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PegasusEvaluation/PegasusEvaluation-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +564,7 @@
 		};
 		23BD1B02214B4D31001437CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69D48D42A7AE9C3030D9E63 /* Pods-PegasusEvaluationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +582,7 @@
 		};
 		23BD1B03214B4D31001437CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619E5428AD90224101B06DD7 /* Pods-PegasusEvaluationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +600,7 @@
 		};
 		23BD1B05214B4D31001437CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90860894B47D24682EE5DFF2 /* Pods-PegasusEvaluationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +617,7 @@
 		};
 		23BD1B06214B4D31001437CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0E6ED17DEBD3146AE9808D /* Pods-PegasusEvaluationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
