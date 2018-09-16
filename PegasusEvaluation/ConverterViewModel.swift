@@ -15,7 +15,6 @@ class ConverterViewModel: NSObject {
         if celsius.isNumber() {
             let converter = TempConvert()
             let result = converter.CelsiusToFahrenheit(Celsius: celsius)
-            print(type(of: result))
             delegate?.convertionFinished(farenheit: result)
 //            if delegate != nil {
 //

@@ -1,20 +1,26 @@
 PODS:
-  - AEXML (4.1.0)
-  - Alamofire (4.5.0)
+  - AEXML (4.2.2)
+  - Alamofire (4.7.3)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
 
 DEPENDENCIES:
-  - AEXML
+  - AEXML (~> 4.2.2)
   - Alamofire
+  - NVActivityIndicatorView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AEXML
     - Alamofire
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
-  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
-  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AEXML: 5ebafc1b75e0bcf0f1b09b8ca8fed2d5a199479b
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
 
-PODFILE CHECKSUM: 016d9146b762ad331d24a66e70e7a758912acf6c
+PODFILE CHECKSUM: 4088c06bf533d6b0e91b7379fa9e66f246fcb7e2
 
 COCOAPODS: 1.5.2

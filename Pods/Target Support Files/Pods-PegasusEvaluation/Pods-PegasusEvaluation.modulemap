@@ -1,6 +1,0 @@
-module Pods_PegasusEvaluation {
-  umbrella header "Pods-PegasusEvaluation-umbrella.h"
-
-  export *
-  module * { export * }
-}

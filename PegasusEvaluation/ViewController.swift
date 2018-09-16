@@ -9,8 +9,10 @@
 import UIKit
 import Alamofire
 import AEXML
+import NVActivityIndicatorView
 
-class ViewController: UIViewController, ConverterVCDelegate{
+
+class ViewController: UIViewController, ConverterVCDelegate,NVActivityIndicatorViewable {
   
     
     
@@ -18,6 +20,7 @@ class ViewController: UIViewController, ConverterVCDelegate{
     @IBOutlet weak var lblFarenheit: UILabel!
     
     var viewModel : ConverterViewModel?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +34,8 @@ class ViewController: UIViewController, ConverterVCDelegate{
     }
    
     @IBAction func conertButtonPressed(_ sender: UIButton) {
-        if self.tfCelsius.text != nil && self.tfCelsius.text!.count > 0{
+        if self.tfCelsius.text != nil && self.tfCelsius.text!.count > 0 {
+            showActivityIndicator()
             viewModel?.convert(celsius: tfCelsius.text!)
         } else {
             //TODO: Show an alert
@@ -56,12 +60,23 @@ class ViewController: UIViewController, ConverterVCDelegate{
             }}))
         self.present(alert, animated: true, completion: nil)
     }
+    func showActivityIndicator(){
+        let size = CGSize(width: 30, height: 30)
+        
+        startAnimating(size, message: nil, type:.ballSpinFadeLoader, fadeInAnimation: nil)
+        
+//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+//            NVActivityIndicatorPresenter.sharedInstance.setMessage("Authenticating...")
+//        }
+    }
     // MARK: ConverterVCDelegate
     func convertionFinished(farenheit: String) {
+        stopAnimating()
         self.lblFarenheit.text = farenheit
     }
     
     func convertionEndedWithError(message: String) {
+        stopAnimating()
         showAlert(message: message, isError: true)
         print(message)
     }

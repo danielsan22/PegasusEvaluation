@@ -1,0 +1,9 @@
+https://github.com/tadija/AEXML#installation
+
+
+Esto no: 
+
+https://gist.github.com/dethbiscuit/af50baf888ed25479644
+
+https://github.com/blastar/Swift-SOAP-with-Alamofire/blob/master/Swift-SOAP-with-Alamofire/Swift-SOAP-with-Alamofire/ViewController.swift
+

@@ -4,7 +4,8 @@ platform :ios, '10.0'
 target 'PegasusEvaluation' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   pod 'Alamofire'
-  pod 'AEXML'
+  pod 'AEXML','~>4.2.2'
+  pod 'NVActivityIndicatorView'
   #pod 'AFNetworking', '~> 3.0'
   # Pods for PegasusEvaluation
   target 'PegasusEvaluationTests' do
