@@ -9,7 +9,12 @@
 import UIKit
 
 class ConverterViewModel: NSObject {
+    
     var delegate: ConverterVCDelegate?
+    var db: SqliteManager
+    override init() {
+        db = SqliteManager()
+    }
     
     func convert(celsius:String) {
         if celsius.isNumber() {
@@ -19,9 +24,15 @@ class ConverterViewModel: NSObject {
 //            if delegate != nil {
 //
 //            }
-            
+            db.insertConversion(celsius: celsius, fahrenheit: result)
+            listConversions()
         } else {
             delegate?.convertionEndedWithError(message: "Por favor introduce un número")
+        }
+    }
+    func listConversions() {
+        for conversionLog in db.readConversions() {
+            print(conversionLog)
         }
     }
 }

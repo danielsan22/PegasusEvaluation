@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23ACB2FF214F017E00F2E83A /* SqliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ACB2FE214F017E00F2E83A /* SqliteManager.swift */; };
+		23ACB302214F2AE500F2E83A /* ConversionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ACB301214F2AE500F2E83A /* ConversionLog.swift */; };
 		23BD1ADA214B4D31001437CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1AD9214B4D31001437CD /* AppDelegate.swift */; };
 		23BD1ADC214B4D31001437CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1ADB214B4D31001437CD /* ViewController.swift */; };
 		23BD1ADF214B4D31001437CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD1ADD214B4D31001437CD /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		1FF68AB907E790ABA2BB7F50 /* libPods-PegasusEvaluationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PegasusEvaluationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ACB2FE214F017E00F2E83A /* SqliteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteManager.swift; sourceTree = "<group>"; };
+		23ACB301214F2AE500F2E83A /* ConversionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionLog.swift; sourceTree = "<group>"; };
 		23BD1AD6214B4D31001437CD /* PegasusEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegasusEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BD1AD9214B4D31001437CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23BD1ADB214B4D31001437CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23ACB2FD214F015800F2E83A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				23ACB2FE214F017E00F2E83A /* SqliteManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		23ACB300214F2A9900F2E83A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23ACB301214F2AE500F2E83A /* ConversionLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		23BD1ACD214B4D31001437CD = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +148,8 @@
 		23BD1AD8214B4D31001437CD /* PegasusEvaluation */ = {
 			isa = PBXGroup;
 			children = (
+				23ACB300214F2A9900F2E83A /* Model */,
+				23ACB2FD214F015800F2E83A /* Persistence */,
 				23F24C46214D6C3400F62EFD /* TempConverter */,
 				23BD1AD9214B4D31001437CD /* AppDelegate.swift */,
 				23BD1ADB214B4D31001437CD /* ViewController.swift */,
@@ -392,10 +414,12 @@
 			files = (
 				23BD1ADC214B4D31001437CD /* ViewController.swift in Sources */,
 				23F24C50214D6C5300F62EFD /* SoapHttpClientExtension.swift in Sources */,
+				23ACB302214F2AE500F2E83A /* ConversionLog.swift in Sources */,
 				23F24C51214D6C5300F62EFD /* SWXMLHash.swift in Sources */,
 				23F24C4D214D6C5300F62EFD /* TempConvert.swift in Sources */,
 				23BD1ADA214B4D31001437CD /* AppDelegate.swift in Sources */,
 				23F24C4E214D6C5300F62EFD /* SWXMLHash+TypeConversion.swift in Sources */,
+				23ACB2FF214F017E00F2E83A /* SqliteManager.swift in Sources */,
 				23F24C4F214D6C5300F62EFD /* SoapHttpClient.swift in Sources */,
 				23F24C53214D826E00F62EFD /* ConverterViewModel.swift in Sources */,
 			);

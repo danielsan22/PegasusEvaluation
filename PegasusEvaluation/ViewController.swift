@@ -18,6 +18,8 @@ class ViewController: UIViewController, ConverterVCDelegate,NVActivityIndicatorV
     
     @IBOutlet weak var tfCelsius: UITextField!
     @IBOutlet weak var lblFarenheit: UILabel!
+    @IBOutlet weak var btnConvert: UIButton!
+    @IBOutlet weak var vContainer: UIView!
     
     var viewModel : ConverterViewModel?
     
@@ -26,6 +28,7 @@ class ViewController: UIViewController, ConverterVCDelegate,NVActivityIndicatorV
         super.viewDidLoad()
         viewModel = ConverterViewModel()
         viewModel?.delegate = self
+        self.setupViews()
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,6 +71,12 @@ class ViewController: UIViewController, ConverterVCDelegate,NVActivityIndicatorV
 //        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
 //            NVActivityIndicatorPresenter.sharedInstance.setMessage("Authenticating...")
 //        }
+    }
+    func setupViews() {
+        self.btnConvert.layer.masksToBounds = true
+        self.btnConvert.layer.cornerRadius = self.btnConvert.frame.width / 2
+        self.vContainer.layer.masksToBounds = true
+        self.vContainer.layer.cornerRadius = 15.0
     }
     // MARK: ConverterVCDelegate
     func convertionFinished(farenheit: String) {
