@@ -8,6 +8,9 @@
 
 import UIKit
 import SQLite3
+//fixes the insert error
+let SQLITE_TRANSIENT = unsafeBitCast(OpaquePointer(bitPattern: -1), to: sqlite3_destructor_type.self)
+
 
 class SqliteManager: NSObject {
     override init() {
@@ -32,6 +35,7 @@ class SqliteManager: NSObject {
         }
     }
     func insertConversion(celsius: String, fahrenheit: String) {
+        print("c: \(celsius) f: \(fahrenheit)")
         let queryString = "INSERT INTO ConversionLog (celsius, fahrenheit, datetime) values (?,?,?)"
         var stmt: OpaquePointer?
         
@@ -39,10 +43,10 @@ class SqliteManager: NSObject {
             print("error preparing query")
         }
         
-        if sqlite3_bind_text(stmt, 1, celsius, -1, nil) != SQLITE_OK {
+        if sqlite3_bind_text(stmt, 1, celsius, -1, SQLITE_TRANSIENT) != SQLITE_OK {
             print("Error binding parameters")
         }
-        if sqlite3_bind_text(stmt, 2, fahrenheit, -1, nil) != SQLITE_OK {
+        if sqlite3_bind_text(stmt, 2, fahrenheit, -1, SQLITE_TRANSIENT) != SQLITE_OK {
             print("Error binding parameters")
         }
         let dateTime = Int32(NSDate().timeIntervalSince1970)
