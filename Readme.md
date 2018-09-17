@@ -1,8 +1,16 @@
 # Celsius to Fahrenheit converter
 
-This project uses [Alamofire] and [AEXML] to read an soap [service]
+This project uses [Alamofire] and [AEXML] to read a soap [service]
 
-Also this proejct uses [cocoapods] as dependency manager.
+### Installation
+
+This project  uses [cocoapods] as dependency manager.
+Install the dependencies with:
+
+```sh
+$ cd path/to/repo
+$ pod install
+```
 
 [Alamofire]: <https://github.com/Alamofire/Alamofire>
 [AEXML]: <https://github.com/tadija/AEXML>
