@@ -16,12 +16,12 @@
 		23BD1AE4214B4D31001437CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD1AE2214B4D31001437CD /* LaunchScreen.storyboard */; };
 		23BD1AEF214B4D31001437CD /* PegasusEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1AEE214B4D31001437CD /* PegasusEvaluationTests.swift */; };
 		23BD1AFA214B4D31001437CD /* PegasusEvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD1AF9214B4D31001437CD /* PegasusEvaluationUITests.swift */; };
-		23F24C4D214D6C5300F62EFD /* TempConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C47214D6C5200F62EFD /* TempConvert.swift */; };
-		23F24C4E214D6C5300F62EFD /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C48214D6C5200F62EFD /* SWXMLHash+TypeConversion.swift */; };
-		23F24C4F214D6C5300F62EFD /* SoapHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C49214D6C5300F62EFD /* SoapHttpClient.swift */; };
-		23F24C50214D6C5300F62EFD /* SoapHttpClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C4B214D6C5300F62EFD /* SoapHttpClientExtension.swift */; };
-		23F24C51214D6C5300F62EFD /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C4C214D6C5300F62EFD /* SWXMLHash.swift */; };
 		23F24C53214D826E00F62EFD /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F24C52214D826E00F62EFD /* ConverterViewModel.swift */; };
+		23FC7B342151F48100BB5A96 /* TempConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC7B2E2151F48000BB5A96 /* TempConvert.swift */; };
+		23FC7B352151F48100BB5A96 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC7B2F2151F48000BB5A96 /* SWXMLHash+TypeConversion.swift */; };
+		23FC7B362151F48100BB5A96 /* SoapHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC7B302151F48100BB5A96 /* SoapHttpClient.swift */; };
+		23FC7B372151F48100BB5A96 /* SoapHttpClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC7B322151F48100BB5A96 /* SoapHttpClientExtension.swift */; };
+		23FC7B382151F48100BB5A96 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC7B332151F48100BB5A96 /* SWXMLHash.swift */; };
 		6B480E9E9CE565BF7EE5ED27 /* libPods-PegasusEvaluationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2BFD671495907134B39C2 /* libPods-PegasusEvaluationUITests.a */; };
 		A360EE06F436665411949BAC /* libPods-PegasusEvaluation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A139282E146A682456C20452 /* libPods-PegasusEvaluation.a */; };
 		B267A66FDB15175401D33A8D /* libPods-PegasusEvaluationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF68AB907E790ABA2BB7F50 /* libPods-PegasusEvaluationTests.a */; };
@@ -62,13 +62,13 @@
 		23BD1AF9214B4D31001437CD /* PegasusEvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegasusEvaluationUITests.swift; sourceTree = "<group>"; };
 		23BD1AFB214B4D31001437CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23DF7986214B626300EE50C7 /* PegasusEvaluation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PegasusEvaluation-Bridging-Header.h"; sourceTree = "<group>"; };
-		23F24C47214D6C5200F62EFD /* TempConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TempConvert.swift; path = ../../../../../../Downloads/swiftcodes/TempConvert.swift; sourceTree = "<group>"; };
-		23F24C48214D6C5200F62EFD /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "../../../../../../Downloads/swiftcodes/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
-		23F24C49214D6C5300F62EFD /* SoapHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapHttpClient.swift; path = ../../../../../../Downloads/swiftcodes/SoapHttpClient.swift; sourceTree = "<group>"; };
-		23F24C4A214D6C5300F62EFD /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWXMLHash.h; path = ../../../../../../Downloads/swiftcodes/SWXMLHash.h; sourceTree = "<group>"; };
-		23F24C4B214D6C5300F62EFD /* SoapHttpClientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapHttpClientExtension.swift; path = ../../../../../../Downloads/swiftcodes/SoapHttpClientExtension.swift; sourceTree = "<group>"; };
-		23F24C4C214D6C5300F62EFD /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = ../../../../../../Downloads/swiftcodes/SWXMLHash.swift; sourceTree = "<group>"; };
 		23F24C52214D826E00F62EFD /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		23FC7B2E2151F48000BB5A96 /* TempConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempConvert.swift; sourceTree = "<group>"; };
+		23FC7B2F2151F48000BB5A96 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		23FC7B302151F48100BB5A96 /* SoapHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClient.swift; sourceTree = "<group>"; };
+		23FC7B312151F48100BB5A96 /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWXMLHash.h; sourceTree = "<group>"; };
+		23FC7B322151F48100BB5A96 /* SoapHttpClientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClientExtension.swift; sourceTree = "<group>"; };
+		23FC7B332151F48100BB5A96 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		5D0E6ED17DEBD3146AE9808D /* Pods-PegasusEvaluationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationUITests/Pods-PegasusEvaluationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		619E5428AD90224101B06DD7 /* Pods-PegasusEvaluationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluationTests/Pods-PegasusEvaluationTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A2711CFE7FE6DD36A97CED9 /* Pods-PegasusEvaluation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusEvaluation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusEvaluation/Pods-PegasusEvaluation.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		23BD1AD8214B4D31001437CD /* PegasusEvaluation */ = {
 			isa = PBXGroup;
 			children = (
+				23FC7B2D2151F47100BB5A96 /* TempConverter */,
 				23ACB300214F2A9900F2E83A /* Model */,
 				23ACB2FD214F015800F2E83A /* Persistence */,
-				23F24C46214D6C3400F62EFD /* TempConverter */,
 				23BD1AD9214B4D31001437CD /* AppDelegate.swift */,
 				23BD1ADB214B4D31001437CD /* ViewController.swift */,
 				23BD1ADD214B4D31001437CD /* Main.storyboard */,
@@ -181,15 +181,15 @@
 			path = PegasusEvaluationUITests;
 			sourceTree = "<group>";
 		};
-		23F24C46214D6C3400F62EFD /* TempConverter */ = {
+		23FC7B2D2151F47100BB5A96 /* TempConverter */ = {
 			isa = PBXGroup;
 			children = (
-				23F24C49214D6C5300F62EFD /* SoapHttpClient.swift */,
-				23F24C4B214D6C5300F62EFD /* SoapHttpClientExtension.swift */,
-				23F24C4A214D6C5300F62EFD /* SWXMLHash.h */,
-				23F24C4C214D6C5300F62EFD /* SWXMLHash.swift */,
-				23F24C48214D6C5200F62EFD /* SWXMLHash+TypeConversion.swift */,
-				23F24C47214D6C5200F62EFD /* TempConvert.swift */,
+				23FC7B302151F48100BB5A96 /* SoapHttpClient.swift */,
+				23FC7B322151F48100BB5A96 /* SoapHttpClientExtension.swift */,
+				23FC7B312151F48100BB5A96 /* SWXMLHash.h */,
+				23FC7B332151F48100BB5A96 /* SWXMLHash.swift */,
+				23FC7B2F2151F48000BB5A96 /* SWXMLHash+TypeConversion.swift */,
+				23FC7B2E2151F48000BB5A96 /* TempConvert.swift */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -413,14 +413,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BD1ADC214B4D31001437CD /* ViewController.swift in Sources */,
-				23F24C50214D6C5300F62EFD /* SoapHttpClientExtension.swift in Sources */,
+				23FC7B362151F48100BB5A96 /* SoapHttpClient.swift in Sources */,
+				23FC7B342151F48100BB5A96 /* TempConvert.swift in Sources */,
+				23FC7B382151F48100BB5A96 /* SWXMLHash.swift in Sources */,
 				23ACB302214F2AE500F2E83A /* ConversionLog.swift in Sources */,
-				23F24C51214D6C5300F62EFD /* SWXMLHash.swift in Sources */,
-				23F24C4D214D6C5300F62EFD /* TempConvert.swift in Sources */,
 				23BD1ADA214B4D31001437CD /* AppDelegate.swift in Sources */,
-				23F24C4E214D6C5300F62EFD /* SWXMLHash+TypeConversion.swift in Sources */,
 				23ACB2FF214F017E00F2E83A /* SqliteManager.swift in Sources */,
-				23F24C4F214D6C5300F62EFD /* SoapHttpClient.swift in Sources */,
+				23FC7B352151F48100BB5A96 /* SWXMLHash+TypeConversion.swift in Sources */,
+				23FC7B372151F48100BB5A96 /* SoapHttpClientExtension.swift in Sources */,
 				23F24C53214D826E00F62EFD /* ConverterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
